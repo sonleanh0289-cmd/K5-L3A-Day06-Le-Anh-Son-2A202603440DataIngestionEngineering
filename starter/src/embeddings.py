@@ -1,4 +1,7 @@
-"""Choose a real embedding provider (API or local) and implement this contract."""
+"""Local BAAI/bge-m3 embedding adapter using SentenceTransformers."""
+from __future__ import annotations
+
+import os
 from typing import Protocol
 
 
@@ -16,14 +19,38 @@ class Embedder(Protocol):
 
 
 class MyEmbedder:
-    """TODO: implement a provider adapter; do not silently fall back to mock vectors."""
+    """Real local embedding provider backed by SentenceTransformers (BAAI/bge-m3)."""
 
-    def __init__(self, model_name: str) -> None:
+    def __init__(self, model_name: str = "BAAI/bge-m3", local_files_only: bool = True) -> None:
         self.model_name = model_name
-        raise NotImplementedError("TODO: initialize real embedder and dimensions")
+        if local_files_only:
+            os.environ.setdefault("HF_HUB_OFFLINE", "1")
+            os.environ.setdefault("TRANSFORMERS_OFFLINE", "1")
 
-    def embed_documents(self, texts: list[str]) -> list[list[float]]:
-        raise NotImplementedError("TODO: embed_documents")
+        from sentence_transformers import SentenceTransformer
+
+        self._model = SentenceTransformer(model_name, local_files_only=local_files_only)
+        get_dim = getattr(self._model, "get_embedding_dimension", self._model.get_sentence_embedding_dimension)
+        dim = get_dim()
+        if dim is None:
+            raise RuntimeError(f"Could not determine embedding dimension for {model_name}")
+        self.dimensions = int(dim)
+
+    def embed_documents(self, texts: list[str], batch_size: int = 32) -> list[list[float]]:
+        if not texts:
+            return []
+        vectors = self._model.encode(
+            texts,
+            batch_size=batch_size,
+            normalize_embeddings=True,
+            show_progress_bar=False,
+        )
+        return [vec.tolist() for vec in vectors]
 
     def embed_query(self, question: str) -> list[float]:
-        raise NotImplementedError("TODO: embed_query")
+        vector = self._model.encode(
+            [question],
+            normalize_embeddings=True,
+            show_progress_bar=False,
+        )[0]
+        return vector.tolist()
