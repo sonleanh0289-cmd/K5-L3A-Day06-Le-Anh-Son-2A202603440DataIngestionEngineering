@@ -1,0 +1,114 @@
+{
+  "run_timestamp": "2026-11-13T17:33:31+07:00",
+  "seed": 42,
+  "model": "BAAI/bge-m3",
+  "dimensions": 1024,
+  "vector_store": "PostgreSQL 16.16 + pgvector 0.8.7 (cosine distance <=>, exact search)",
+  "library_versions": {
+    "python": "3.14.4",
+    "pypdf": "6.21.4",
+    "psycopg": "3.3.8",
+    "sentence_transformers": "5.5.0",
+    "torch": "2.12.0+cpu",
+    "transformers": "5.8.1"
+  },
+  "idempotency_check": {
+    "strategy": "A",
+    "before": 391,
+    "after": 391
+  },
+  "ingest_stats": {
+    "A": {
+      "chunk_count": 391,
+      "total_chars": 179849,
+      "min_len": 52,
+      "median_len": 500,
+      "max_len": 500,
+      "embed_seconds": 107.74,
+      "db_upsert_seconds": 0.27,
+      "cost_usd": 0.0
+    },
+    "B": {
+      "chunk_count": 376,
+      "total_chars": 163009,
+      "min_len": 51,
+      "median_len": 460,
+      "max_len": 600,
+      "embed_seconds": 55.5,
+      "db_upsert_seconds": 0.19,
+      "cost_usd": 0.0
+    },
+    "C": {
+      "chunk_count": 376,
+      "total_chars": 163009,
+      "min_len": 51,
+      "median_len": 460,
+      "max_len": 600,
+      "embed_seconds": 55.5,
+      "db_upsert_seconds": 0.19,
+      "cost_usd": 0.0
+    }
+  },
+  "retrieval_summary": {
+    "A": {
+      "dev": {
+        "total": 16,
+        "hit_at_1_count": 8,
+        "hit_at_1_rate": 0.5,
+        "hit_at_3_count": 10,
+        "hit_at_3_rate": 0.625,
+        "filtered_total": 3,
+        "filter_compliant_count": 3
+      },
+      "test": {
+        "total": 6,
+        "hit_at_1_count": 2,
+        "hit_at_1_rate": 0.3333,
+        "hit_at_3_count": 4,
+        "hit_at_3_rate": 0.6667,
+        "filtered_total": 2,
+        "filter_compliant_count": 2
+      }
+    },
+    "B": {
+      "dev": {
+        "total": 16,
+        "hit_at_1_count": 13,
+        "hit_at_1_rate": 0.8125,
+        "hit_at_3_count": 16,
+        "hit_at_3_rate": 1.0,
+        "filtered_total": 3,
+        "filter_compliant_count": 3
+      },
+      "test": {
+        "total": 6,
+        "hit_at_1_count": 5,
+        "hit_at_1_rate": 0.8333,
+        "hit_at_3_count": 6,
+        "hit_at_3_rate": 1.0,
+        "filtered_total": 2,
+        "filter_compliant_count": 2
+      }
+    },
+    "C": {
+      "dev": {
+        "total": 16,
+        "hit_at_1_count": 13,
+        "hit_at_1_rate": 0.8125,
+        "hit_at_3_count": 16,
+        "hit_at_3_rate": 1.0,
+        "filtered_total": 3,
+        "filter_compliant_count": 3
+      },
+      "test": {
+        "total": 6,
+        "hit_at_1_count": 5,
+        "hit_at_1_rate": 0.8333,
+        "hit_at_3_count": 6,
+        "hit_at_3_rate": 1.0,
+        "filtered_total": 2,
+        "filter_compliant_count": 2
+      }
+    }
+  }
+}

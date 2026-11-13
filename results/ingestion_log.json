@@ -1,0 +1,504 @@
+{
+  "timestamp": "2026-11-13T17:31:16+07:00",
+  "total_physical_pages": 62,
+  "valid_content_pages": 62,
+  "empty_or_error_pages": [],
+  "pages": [
+    {
+      "document_id": "luat-ttatgt-36-2024-qh15",
+      "source": "36_2024_QH15_444251.doc.pdf",
+      "page": 1,
+      "chapter": "Chương I",
+      "char_count": 2154,
+      "status": "ok"
+    },
+    {
+      "document_id": "luat-ttatgt-36-2024-qh15",
+      "source": "36_2024_QH15_444251.doc.pdf",
+      "page": 2,
+      "chapter": "Chương I",
+      "char_count": 2639,
+      "status": "ok"
+    },
+    {
+      "document_id": "luat-ttatgt-36-2024-qh15",
+      "source": "36_2024_QH15_444251.doc.pdf",
+      "page": 3,
+      "chapter": "Chương I",
+      "char_count": 3307,
+      "status": "ok"
+    },
+    {
+      "document_id": "luat-ttatgt-36-2024-qh15",
+      "source": "36_2024_QH15_444251.doc.pdf",
+      "page": 4,
+      "chapter": "Chương I",
+      "char_count": 2929,
+      "status": "ok"
+    },
+    {
+      "document_id": "luat-ttatgt-36-2024-qh15",
+      "source": "36_2024_QH15_444251.doc.pdf",
+      "page": 5,
+      "chapter": "Chương I",
+      "char_count": 2511,
+      "status": "ok"
+    },
+    {
+      "document_id": "luat-ttatgt-36-2024-qh15",
+      "source": "36_2024_QH15_444251.doc.pdf",
+      "page": 6,
+      "chapter": "Chương I",
+      "char_count": 2969,
+      "status": "ok"
+    },
+    {
+      "document_id": "luat-ttatgt-36-2024-qh15",
+      "source": "36_2024_QH15_444251.doc.pdf",
+      "page": 7,
+      "chapter": "Chương II",
+      "char_count": 2848,
+      "status": "ok"
+    },
+    {
+      "document_id": "luat-ttatgt-36-2024-qh15",
+      "source": "36_2024_QH15_444251.doc.pdf",
+      "page": 8,
+      "chapter": "Chương II",
+      "char_count": 2411,
+      "status": "ok"
+    },
+    {
+      "document_id": "luat-ttatgt-36-2024-qh15",
+      "source": "36_2024_QH15_444251.doc.pdf",
+      "page": 9,
+      "chapter": "Chương II",
+      "char_count": 2542,
+      "status": "ok"
+    },
+    {
+      "document_id": "luat-ttatgt-36-2024-qh15",
+      "source": "36_2024_QH15_444251.doc.pdf",
+      "page": 10,
+      "chapter": "Chương II",
+      "char_count": 2538,
+      "status": "ok"
+    },
+    {
+      "document_id": "luat-ttatgt-36-2024-qh15",
+      "source": "36_2024_QH15_444251.doc.pdf",
+      "page": 11,
+      "chapter": "Chương II",
+      "char_count": 2546,
+      "status": "ok"
+    },
+    {
+      "document_id": "luat-ttatgt-36-2024-qh15",
+      "source": "36_2024_QH15_444251.doc.pdf",
+      "page": 12,
+      "chapter": "Chương II",
+      "char_count": 2835,
+      "status": "ok"
+    },
+    {
+      "document_id": "luat-ttatgt-36-2024-qh15",
+      "source": "36_2024_QH15_444251.doc.pdf",
+      "page": 13,
+      "chapter": "Chương II",
+      "char_count": 2239,
+      "status": "ok"
+    },
+    {
+      "document_id": "luat-ttatgt-36-2024-qh15",
+      "source": "36_2024_QH15_444251.doc.pdf",
+      "page": 14,
+      "chapter": "Chương II",
+      "char_count": 2305,
+      "status": "ok"
+    },
+    {
+      "document_id": "luat-ttatgt-36-2024-qh15",
+      "source": "36_2024_QH15_444251.doc.pdf",
+      "page": 15,
+      "chapter": "Chương II",
+      "char_count": 2247,
+      "status": "ok"
+    },
+    {
+      "document_id": "luat-ttatgt-36-2024-qh15",
+      "source": "36_2024_QH15_444251.doc.pdf",
+      "page": 16,
+      "chapter": "Chương II",
+      "char_count": 2877,
+      "status": "ok"
+    },
+    {
+      "document_id": "luat-ttatgt-36-2024-qh15",
+      "source": "36_2024_QH15_444251.doc.pdf",
+      "page": 17,
+      "chapter": "Chương II",
+      "char_count": 2756,
+      "status": "ok"
+    },
+    {
+      "document_id": "luat-ttatgt-36-2024-qh15",
+      "source": "36_2024_QH15_444251.doc.pdf",
+      "page": 18,
+      "chapter": "Chương II",
+      "char_count": 2752,
+      "status": "ok"
+    },
+    {
+      "document_id": "luat-ttatgt-36-2024-qh15",
+      "source": "36_2024_QH15_444251.doc.pdf",
+      "page": 19,
+      "chapter": "Chương II",
+      "char_count": 2797,
+      "status": "ok"
+    },
+    {
+      "document_id": "luat-ttatgt-36-2024-qh15",
+      "source": "36_2024_QH15_444251.doc.pdf",
+      "page": 20,
+      "chapter": "Chương III",
+      "char_count": 2097,
+      "status": "ok"
+    },
+    {
+      "document_id": "luat-ttatgt-36-2024-qh15",
+      "source": "36_2024_QH15_444251.doc.pdf",
+      "page": 21,
+      "chapter": "Chương III",
+      "char_count": 2604,
+      "status": "ok"
+    },
+    {
+      "document_id": "luat-ttatgt-36-2024-qh15",
+      "source": "36_2024_QH15_444251.doc.pdf",
+      "page": 22,
+      "chapter": "Chương III",
+      "char_count": 2001,
+      "status": "ok"
+    },
+    {
+      "document_id": "luat-ttatgt-36-2024-qh15",
+      "source": "36_2024_QH15_444251.doc.pdf",
+      "page": 23,
+      "chapter": "Chương III",
+      "char_count": 2677,
+      "status": "ok"
+    },
+    {
+      "document_id": "luat-ttatgt-36-2024-qh15",
+      "source": "36_2024_QH15_444251.doc.pdf",
+      "page": 24,
+      "chapter": "Chương III",
+      "char_count": 2785,
+      "status": "ok"
+    },
+    {
+      "document_id": "luat-ttatgt-36-2024-qh15",
+      "source": "36_2024_QH15_444251.doc.pdf",
+      "page": 25,
+      "chapter": "Chương III",
+      "char_count": 2482,
+      "status": "ok"
+    },
+    {
+      "document_id": "luat-ttatgt-36-2024-qh15",
+      "source": "36_2024_QH15_444251.doc.pdf",
+      "page": 26,
+      "chapter": "Chương III",
+      "char_count": 2664,
+      "status": "ok"
+    },
+    {
+      "document_id": "luat-ttatgt-36-2024-qh15",
+      "source": "36_2024_QH15_444251.doc.pdf",
+      "page": 27,
+      "chapter": "Chương III",
+      "char_count": 2532,
+      "status": "ok"
+    },
+    {
+      "document_id": "luat-ttatgt-36-2024-qh15",
+      "source": "36_2024_QH15_444251.doc.pdf",
+      "page": 28,
+      "chapter": "Chương III",
+      "char_count": 2930,
+      "status": "ok"
+    },
+    {
+      "document_id": "luat-ttatgt-36-2024-qh15",
+      "source": "36_2024_QH15_444251.doc.pdf",
+      "page": 29,
+      "chapter": "Chương III",
+      "char_count": 2868,
+      "status": "ok"
+    },
+    {
+      "document_id": "luat-ttatgt-36-2024-qh15",
+      "source": "36_2024_QH15_444251.doc.pdf",
+      "page": 30,
+      "chapter": "Chương III",
+      "char_count": 2314,
+      "status": "ok"
+    },
+    {
+      "document_id": "luat-ttatgt-36-2024-qh15",
+      "source": "36_2024_QH15_444251.doc.pdf",
+      "page": 31,
+      "chapter": "Chương III",
+      "char_count": 2718,
+      "status": "ok"
+    },
+    {
+      "document_id": "luat-ttatgt-36-2024-qh15",
+      "source": "36_2024_QH15_444251.doc.pdf",
+      "page": 32,
+      "chapter": "Chương III",
+      "char_count": 2447,
+      "status": "ok"
+    },
+    {
+      "document_id": "luat-ttatgt-36-2024-qh15",
+      "source": "36_2024_QH15_444251.doc.pdf",
+      "page": 33,
+      "chapter": "Chương III",
+      "char_count": 2632,
+      "status": "ok"
+    },
+    {
+      "document_id": "luat-ttatgt-36-2024-qh15",
+      "source": "36_2024_QH15_444251.doc.pdf",
+      "page": 34,
+      "chapter": "Chương III",
+      "char_count": 2737,
+      "status": "ok"
+    },
+    {
+      "document_id": "luat-ttatgt-36-2024-qh15",
+      "source": "36_2024_QH15_444251.doc.pdf",
+      "page": 35,
+      "chapter": "Chương III",
+      "char_count": 3093,
+      "status": "ok"
+    },
+    {
+      "document_id": "luat-ttatgt-36-2024-qh15",
+      "source": "36_2024_QH15_444251.doc.pdf",
+      "page": 36,
+      "chapter": "Chương III",
+      "char_count": 2828,
+      "status": "ok"
+    },
+    {
+      "document_id": "luat-ttatgt-36-2024-qh15",
+      "source": "36_2024_QH15_444251.doc.pdf",
+      "page": 37,
+      "chapter": "Chương IV",
+      "char_count": 2810,
+      "status": "ok"
+    },
+    {
+      "document_id": "luat-ttatgt-36-2024-qh15",
+      "source": "36_2024_QH15_444251.doc.pdf",
+      "page": 38,
+      "chapter": "Chương IV",
+      "char_count": 2718,
+      "status": "ok"
+    },
+    {
+      "document_id": "luat-ttatgt-36-2024-qh15",
+      "source": "36_2024_QH15_444251.doc.pdf",
+      "page": 39,
+      "chapter": "Chương IV",
+      "char_count": 2791,
+      "status": "ok"
+    },
+    {
+      "document_id": "luat-ttatgt-36-2024-qh15",
+      "source": "36_2024_QH15_444251.doc.pdf",
+      "page": 40,
+      "chapter": "Chương IV",
+      "char_count": 2785,
+      "status": "ok"
+    },
+    {
+      "document_id": "luat-ttatgt-36-2024-qh15",
+      "source": "36_2024_QH15_444251.doc.pdf",
+      "page": 41,
+      "chapter": "Chương IV",
+      "char_count": 2653,
+      "status": "ok"
+    },
+    {
+      "document_id": "luat-ttatgt-36-2024-qh15",
+      "source": "36_2024_QH15_444251.doc.pdf",
+      "page": 42,
+      "chapter": "Chương IV",
+      "char_count": 2668,
+      "status": "ok"
+    },
+    {
+      "document_id": "luat-ttatgt-36-2024-qh15",
+      "source": "36_2024_QH15_444251.doc.pdf",
+      "page": 43,
+      "chapter": "Chương IV",
+      "char_count": 2681,
+      "status": "ok"
+    },
+    {
+      "document_id": "luat-ttatgt-36-2024-qh15",
+      "source": "36_2024_QH15_444251.doc.pdf",
+      "page": 44,
+      "chapter": "Chương IV",
+      "char_count": 3042,
+      "status": "ok"
+    },
+    {
+      "document_id": "luat-ttatgt-36-2024-qh15",
+      "source": "36_2024_QH15_444251.doc.pdf",
+      "page": 45,
+      "chapter": "Chương V",
+      "char_count": 2348,
+      "status": "ok"
+    },
+    {
+      "document_id": "luat-ttatgt-36-2024-qh15",
+      "source": "36_2024_QH15_444251.doc.pdf",
+      "page": 46,
+      "chapter": "Chương V",
+      "char_count": 2920,
+      "status": "ok"
+    },
+    {
+      "document_id": "luat-ttatgt-36-2024-qh15",
+      "source": "36_2024_QH15_444251.doc.pdf",
+      "page": 47,
+      "chapter": "Chương V",
+      "char_count": 2819,
+      "status": "ok"
+    },
+    {
+      "document_id": "luat-ttatgt-36-2024-qh15",
+      "source": "36_2024_QH15_444251.doc.pdf",
+      "page": 48,
+      "chapter": "Chương V",
+      "char_count": 3067,
+      "status": "ok"
+    },
+    {
+      "document_id": "luat-ttatgt-36-2024-qh15",
+      "source": "36_2024_QH15_444251.doc.pdf",
+      "page": 49,
+      "chapter": "Chương V",
+      "char_count": 3241,
+      "status": "ok"
+    },
+    {
+      "document_id": "luat-ttatgt-36-2024-qh15",
+      "source": "36_2024_QH15_444251.doc.pdf",
+      "page": 50,
+      "chapter": "Chương V",
+      "char_count": 2632,
+      "status": "ok"
+    },
+    {
+      "document_id": "luat-ttatgt-36-2024-qh15",
+      "source": "36_2024_QH15_444251.doc.pdf",
+      "page": 51,
+      "chapter": "Chương VI",
+      "char_count": 2727,
+      "status": "ok"
+    },
+    {
+      "document_id": "luat-ttatgt-36-2024-qh15",
+      "source": "36_2024_QH15_444251.doc.pdf",
+      "page": 52,
+      "chapter": "Chương VI",
+      "char_count": 2549,
+      "status": "ok"
+    },
+    {
+      "document_id": "luat-ttatgt-36-2024-qh15",
+      "source": "36_2024_QH15_444251.doc.pdf",
+      "page": 53,
+      "chapter": "Chương VI",
+      "char_count": 2805,
+      "status": "ok"
+    },
+    {
+      "document_id": "luat-ttatgt-36-2024-qh15",
+      "source": "36_2024_QH15_444251.doc.pdf",
+      "page": 54,
+      "chapter": "Chương VII",
+      "char_count": 2527,
+      "status": "ok"
+    },
+    {
+      "document_id": "luat-ttatgt-36-2024-qh15",
+      "source": "36_2024_QH15_444251.doc.pdf",
+      "page": 55,
+      "chapter": "Chương VII",
+      "char_count": 2994,
+      "status": "ok"
+    },
+    {
+      "document_id": "luat-ttatgt-36-2024-qh15",
+      "source": "36_2024_QH15_444251.doc.pdf",
+      "page": 56,
+      "chapter": "Chương VII",
+      "char_count": 2753,
+      "status": "ok"
+    },
+    {
+      "document_id": "luat-ttatgt-36-2024-qh15",
+      "source": "36_2024_QH15_444251.doc.pdf",
+      "page": 57,
+      "chapter": "Chương VII",
+      "char_count": 2569,
+      "status": "ok"
+    },
+    {
+      "document_id": "luat-ttatgt-36-2024-qh15",
+      "source": "36_2024_QH15_444251.doc.pdf",
+      "page": 58,
+      "chapter": "Chương VIII",
+      "char_count": 2307,
+      "status": "ok"
+    },
+    {
+      "document_id": "luat-ttatgt-36-2024-qh15",
+      "source": "36_2024_QH15_444251.doc.pdf",
+      "page": 59,
+      "chapter": "Chương IX",
+      "char_count": 2327,
+      "status": "ok"
+    },
+    {
+      "document_id": "luat-ttatgt-36-2024-qh15",
+      "source": "36_2024_QH15_444251.doc.pdf",
+      "page": 60,
+      "chapter": "Chương IX",
+      "char_count": 3009,
+      "status": "ok"
+    },
+    {
+      "document_id": "luat-ttatgt-36-2024-qh15",
+      "source": "36_2024_QH15_444251.doc.pdf",
+      "page": 61,
+      "chapter": "Chương IX",
+      "char_count": 2866,
+      "status": "ok"
+    },
+    {
+      "document_id": "luat-ttatgt-36-2024-qh15",
+      "source": "36_2024_QH15_444251.doc.pdf",
+      "page": 62,
+      "chapter": "Chương IX",
+      "char_count": 333,
+      "status": "ok"
+    }
+  ]
+}

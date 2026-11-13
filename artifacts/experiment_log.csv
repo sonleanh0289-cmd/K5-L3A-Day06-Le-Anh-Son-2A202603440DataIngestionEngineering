@@ -1,4 +1,4 @@
 strategy,chunking,chunk_size,overlap,metadata,filter,vectorizer,hypothesis,dev_hit1,dev_hit3,test_hit1,test_hit3,notes
-A,,,,,,,,,,,,
-B,,,,,,,,,,,,
-C,,,,,,,,,,,,
+A,fixed_size,500,50,"document_id,source,page,chapter,document_type,year,language",none,BAAI/bge-m3 (1024d local),"Fixed-size 500 ky tu de bi cat ngang cau/dieu luat, giam Hit@1 va Grounding",8/16 (0.5000),10/16 (0.6250),2/6 (0.3333),4/6 (0.6667),"391 chunks; 65.44s embed; 0.22s upsert; cost $0"
+B,by_paragraph,600,0,"document_id,source,page,chapter,document_type,year,language",none,BAAI/bge-m3 (1024d local),"Chia theo Chuong/Dieu/khoan giu tron y, tang Hit@1 va Grounding so voi A",13/16 (0.8125),16/16 (1.0000),5/6 (0.8333),6/6 (1.0000),"376 chunks; 57.62s embed; 0.16s upsert; cost $0"
+C,by_paragraph,600,0,"document_id,source,page,chapter,document_type,year,language",chapter (when provided),BAAI/bge-m3 (1024d local),"Giu nguyen chunk B va loc theo chapter khi co filter giup thu hep pham vi va dam bao 100% tuan thu chuong",13/16 (0.8125),16/16 (1.0000),5/6 (0.8333),6/6 (1.0000),"376 chunks; 57.62s embed (reused); 0.19s upsert; filter compliance 3/3 dev & 2/2 test"
